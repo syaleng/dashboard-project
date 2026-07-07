@@ -1,16 +1,27 @@
-# React + Vite
+Important Notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project uses localStorage for learning and frontend practice.
 
-Currently, two official plugins are available:
+In a real production system:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Passwords should not be stored in frontend code
+Authentication should be handled by a backend
+User data should be stored in a database
+Protected routes should be verified by backend APIs
+Tokens or secure sessions should be used
+Future Improvements
+Add backend API
+Add database connection
+Add JWT authentication
+Add React Router
+Add real protected routes
+Add user profile page
+Add dashboard charts
+Add pagination
+Add better validation
+Add deployment
+GitHub Repository
+https://github.com/syaleng/dashboard-project
+Author
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Developed by Syal as a React dashboard learning project.
